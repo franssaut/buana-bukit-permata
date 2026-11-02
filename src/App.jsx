@@ -9,6 +9,7 @@ import VideoProgress from './components/VideoProgress';
 import VisualGallery from './components/VisualGallery';
 import OfficialPricelist from './components/OfficialPricelist';
 import KprCalculator from './components/KprCalculator';
+import FAQSection from './components/FAQSection';
 import ContactBookingForm from './components/ContactBookingForm';
 import Footer from './components/Footer';
 import FloatingWhatsApp from './components/FloatingWhatsApp';
@@ -54,6 +55,7 @@ export default function App() {
         <VisualGallery onOpenModal={handleOpenModal} />
         <OfficialPricelist />
         <KprCalculator />
+        <FAQSection />
         <ContactBookingForm />
       </main>
 

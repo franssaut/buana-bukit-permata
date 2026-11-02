@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { MARKETING_INFO } from '../data/propertyData';
-import { Phone, MessageCircle, Menu, X, Home, MapPin, Sparkles, Video, Calculator, Calendar, Receipt } from 'lucide-react';
+import { Phone, MessageCircle, Menu, X, Home, MapPin, Sparkles, Video, Calculator, Calendar, Receipt, HelpCircle } from 'lucide-react';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -16,7 +16,7 @@ export default function Navbar() {
       }
 
       // Check section in view
-      const sections = ['beranda', 'spesifikasi-unit', 'lokasi-akses', 'fasilitas', 'video-progress', 'daftar-harga', 'kpr-simulator', 'kontak-booking'];
+      const sections = ['beranda', 'spesifikasi-unit', 'lokasi-akses', 'fasilitas', 'video-progress', 'daftar-harga', 'kpr-simulator', 'faq', 'kontak-booking'];
       const scrollPos = window.scrollY + 120;
       for (const sectionId of sections) {
         const el = document.getElementById(sectionId);
@@ -43,6 +43,7 @@ export default function Navbar() {
     { id: 'video-progress', label: 'Video Progres', href: '#video-progress', icon: Video },
     { id: 'daftar-harga', label: 'Daftar Harga', href: '#daftar-harga', icon: Receipt },
     { id: 'kpr-simulator', label: 'Simulasi Bayar', href: '#kpr-simulator', icon: Calculator },
+    { id: 'faq', label: 'FAQ', href: '#faq', icon: HelpCircle },
     { id: 'kontak-booking', label: 'Survey Lokasi', href: '#kontak-booking', icon: Calendar },
   ];
 

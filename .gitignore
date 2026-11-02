@@ -31,3 +31,5 @@ video_*.mp4
 view *.mp4
 *.mp4
 !public/videos/*.mp4
+
+.vercel

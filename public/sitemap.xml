@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://buanabukitpermata.vercel.app/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://buanabukitpermata.vercel.app/images/facade-highlight.png</image:loc>
+      <image:title>Fasad Depan Rumah Buana Bukit Permata Type 36+ 72 Cipta Group Batam</image:title>
+      <image:caption>Perumahan Buana Bukit Permata Tembesi Batu Aji Batam</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://buanabukitpermata.vercel.app/images/type36-72-specs.png</image:loc>
+      <image:title>Spesifikasi dan Denah 4 Sudut Pandang Buana Bukit Permata</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://buanabukitpermata.vercel.app/images/denah-lokasi.png</image:loc>
+      <image:title>Denah Lokasi Akses Buana Bukit Permata Tembesi Barelang</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://buanabukitpermata.vercel.app/images/taman-bermain-gate.jpg</image:loc>
+      <image:title>Gerbang Ruang Bermain Anak RBA Buana Bukit Permata</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://buanabukitpermata.vercel.app/images/taman-bermain-arena.jpg</image:loc>
+      <image:title>Wahana Arena Bermain Anak Buana Bukit Permata</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://buanabukitpermata.vercel.app/#daftar-harga</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://buanabukitpermata.vercel.app/#spesifikasi-unit</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://buanabukitpermata.vercel.app/#lokasi-akses</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buanabukitpermata.vercel.app/#kpr-simulator</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://buanabukitpermata.vercel.app/#video-progress</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buanabukitpermata.vercel.app/#fasilitas</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buanabukitpermata.vercel.app/#faq</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://buanabukitpermata.vercel.app/#kontak-booking</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+</urlset>

@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Host
+Host: https://buanabukitpermata.vercel.app
+
+# Sitemaps
+Sitemap: https://buanabukitpermata.vercel.app/sitemap.xml

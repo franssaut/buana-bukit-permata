@@ -140,6 +140,11 @@ export default function Footer() {
                 </a>
               </li>
               <li>
+                <a href="#faq" className="hover:text-primary transition-colors">
+                  • Tanya Jawab (FAQ)
+                </a>
+              </li>
+              <li>
                 <a href="#kontak-booking" className="hover:text-primary transition-colors">
                   • Booking Survey Lokasi
                 </a>
