@@ -1,27 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { MARKETING_INFO } from '../data/propertyData';
-import { MessageCircle, X } from 'lucide-react';
+import { MessageCircle } from 'lucide-react';
 
 export default function FloatingWhatsApp() {
-  const [showTooltip, setShowTooltip] = useState(true);
-
   return (
     <div className="fixed bottom-6 right-6 z-40 flex flex-col items-end gap-2">
-      {/* Speech bubble tooltip */}
-      {showTooltip && (
-        <div className="hidden sm:flex items-center gap-2 px-3.5 py-2 rounded-2xl bg-surface-container-lowest text-primary shadow-xl border border-surface-variant/40 animate-bounce-subtle text-xs font-semibold">
-          <span>Tanya kavling & promo ke Frans?</span>
-          <button
-            onClick={() => setShowTooltip(false)}
-            className="text-on-surface-variant hover:text-primary transition-colors"
-            aria-label="Tutup pesan"
-          >
-            <X className="w-3.5 h-3.5" />
-          </button>
-        </div>
-      )}
-
-      {/* Main Floating Button */}
+      {/* Main Floating WhatsApp Button */}
       <a
         href={`${MARKETING_INFO.waLink}?text=${encodeURIComponent('Halo Frans, saya melihat website Buana Bukit Permata dan ingin bertanya mengenai unit dan promo terbaru.')}`}
         target="_blank"
