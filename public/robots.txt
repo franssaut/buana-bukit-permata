@@ -1,8 +1,171 @@
+# ==============================================================================
+# Robots.txt for https://www.buanabukitpermata.web.id
+# Perumahan Buana Bukit Permata Tembesi Batam (Cipta Group)
+# ==============================================================================
+
+# Global Default Directive
 User-agent: *
 Allow: /
+Allow: /images/
+Allow: /videos/
+Allow: /assets/
+Disallow: /api/
+Disallow: /node_modules/
+Disallow: /.git/
 
-# Host
+# ------------------------------------------------------------------------------
+# Google Search Engine Crawlers
+# ------------------------------------------------------------------------------
+User-agent: Googlebot
+Allow: /
+Allow: /images/
+Allow: /videos/
+
+User-agent: Googlebot-Image
+Allow: /images/
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+User-agent: Googlebot-Video
+Allow: /videos/
+Allow: /
+
+User-agent: Google-InspectionTool
+Allow: /
+
+User-agent: Storebot-Google
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# ------------------------------------------------------------------------------
+# Microsoft Bing & Yahoo Crawlers
+# ------------------------------------------------------------------------------
+User-agent: Bingbot
+Allow: /
+Allow: /images/
+Allow: /videos/
+
+User-agent: msnbot
+Allow: /
+
+User-agent: msnbot-media
+Allow: /images/
+Allow: /
+
+User-agent: adidxbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# ------------------------------------------------------------------------------
+# DuckDuckGo & Apple Crawlers
+# ------------------------------------------------------------------------------
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# ------------------------------------------------------------------------------
+# Yandex & Baidu International Crawlers
+# ------------------------------------------------------------------------------
+User-agent: Yandex
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: YandexImages
+Allow: /images/
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Baiduspider-image
+Allow: /images/
+Allow: /
+
+# ------------------------------------------------------------------------------
+# Social Media Preview Bots (WhatsApp, Facebook, Twitter, Telegram, LinkedIn)
+# ------------------------------------------------------------------------------
+User-agent: WhatsApp
+Allow: /
+Allow: /images/
+
+User-agent: facebookexternalhit
+Allow: /
+Allow: /images/
+
+User-agent: Twitterbot
+Allow: /
+Allow: /images/
+
+User-agent: LinkedInBot
+Allow: /
+Allow: /images/
+
+User-agent: TelegramBot
+Allow: /
+Allow: /images/
+
+User-agent: Pinterestbot
+Allow: /
+Allow: /images/
+
+User-agent: Slackbot
+Allow: /
+Allow: /images/
+
+# ------------------------------------------------------------------------------
+# AI Search & Conversational Agents (ChatGPT, Perplexity, Claude)
+# ------------------------------------------------------------------------------
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Omgilibot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# ------------------------------------------------------------------------------
+# SEO Audit & Verification Tools
+# ------------------------------------------------------------------------------
+User-agent: AhrefsBot
+Allow: /
+
+User-agent: SemrushBot
+Allow: /
+
+User-agent: DotBot
+Allow: /
+
+User-agent: Screaming Frog SEO Spider
+Allow: /
+
+# ------------------------------------------------------------------------------
+# Host & Sitemaps
+# ------------------------------------------------------------------------------
 Host: https://www.buanabukitpermata.web.id
-
-# Sitemaps
 Sitemap: https://www.buanabukitpermata.web.id/sitemap.xml
